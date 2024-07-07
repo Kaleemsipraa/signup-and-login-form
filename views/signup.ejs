@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Signup</title>
+		<link rel="stylesheet" href="/stylesheets/styles.css">
+	</head>
+	<body>
+		<main>
+			<div class="form-container">
+				<h2 class="heading">Signup</h2>
+				<form action="/signup" method="post" autocomplete="off">
+					<label for="username">Username</label>
+					<input
+						class="input"
+						type="text"
+						name="username"
+						placeholder="Enter username"
+						autocomplete="off"
+						id="username"
+					/>
+					<label for="email">Email</label>
+					<input
+						class="input"
+						type="email"
+						name="email"
+						placeholder="Enter your Email"
+						autocomplete="off"
+						id="email"
+					/>
+					<label for="password">Password</label>
+					<input
+						class="input"
+						type="password"
+						name="password"
+						placeholder="Enter password"
+						autocomplete="off"
+						id="password"
+					/>
+					<label for="phone">Phone Number</label>
+					<input
+						class="input"
+						type="number"
+						name="phone"
+						placeholder="Enter Mobile number"
+						autocomplete="off"
+						id="phone"
+					/>
+					<button class="btn" type="submit">Signup</button>
+				</form>
+				<p class="option">Register User <a href="/login">Login</a></p>
+			</div>
+		</main>
+	</body>
+</html>
